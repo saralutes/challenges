@@ -42,8 +42,12 @@ h1 {
   font-weight: bold;
   text-decoration: underline; 
 }
+
 #box {
   background-color: #dcd0ff;
+  width: auto;
+  border: solid;
+  
 }
 #question {
   font-family: garamond, verdana, sans-serif;
@@ -53,25 +57,36 @@ h1 {
     display: flex;
     height: auto;
   flex-direction: row; 
+
   }
   #box-1 {
     background-color: grey;
     width: 50%;
     height: 100%;
     border-radius: 25px;
-    border: solid;  
+    border: solid;
+    
   }
+
   #box-2 {
     background-color: grey;
     width: 50%;
     height: 100%;
     border-radius: 25px;
     border: solid;
-  }
 }
-@media (max-width: 460px) {
+#learnmore {
+  font-style: Garamond, verdana, sans-serif;
+  font-size: 20px;
+   
+}
+#emptybox2 {
+  height: 100px;
+  width: 100%;
+}
+@media (max-width: 500px) {
   #h1 {
-    font-size: 75%;
+    font-size: 50%;
     }
   #img-caption {
      font-size:25%;
@@ -84,7 +99,6 @@ h1 {
     flex-direction: column;
   }
   }
-}
 
 </style>
 </head>
@@ -98,7 +112,7 @@ h1 {
     </figcaption>
   </figure>
   <p1 id="tribute-info">
-    Charlie, the goodest of doggos, is a rescued <a
+Charlie, the goodest of doggos, is a rescued <a
         id="tribute-link"
         href=https://www.akc.org/dog-breeds/bichon-frise/
         target="_blank"
@@ -145,5 +159,14 @@ mix who chose his family on a lovely fall day in September of 2014. He decided t
       </div>
 </div>
   </div>
- 
+    <div id="empytbox">
+      <div>
+      <p1 id="learnmore">
+        Like what you see? Want to learn more about Charlie? Check out his insta @charlesthebestboi!
+      </p1>
+      </div>
+      <div id="emptybox2">
+      </div>
+
 </main>
+</html>

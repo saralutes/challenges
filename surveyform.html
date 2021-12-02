@@ -1,0 +1,184 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Charlie v. Lola</h1>
+    <p id="description" class="description text-center">
+      Who is the goodest pupper of them all???
+    </p>  
+  </header>
+<iframe id="charlie-lola" src="https://drive.google.com/file/d/12UGxeMuj3uaVIPo0fVftMYy6_u3c8b0b/preview" width="640" height="480" allow="autoplay" alt="2 dogs sitting on rug staring at the camera"></iframe>
+   <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >On a scale from 1 to 10, how cute is Charlie?</label
+      >
+      <input
+        type="number"
+        id="number"
+        name:"cuteness"
+        min="1"
+        max="10"
+        class="form-control"
+        placeholder="10"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >On a scale from 1 to 10, how cute is Lola?</label
+      >
+      <input
+        type="number"
+        id="number"
+        name:"cuteness"
+        min="1"
+        max="10"
+        class="form-control"
+        placeholder="10"
+        required
+      />
+    </div>
+    </div>
+    <div class="form-group">
+      <p>Who would you pet first if you had the chance?</p>
+      <label>
+        <input
+          name="pet-first"
+          value="Charlie"
+          type="radio"
+          class="input-radio"
+        />Charlie</label
+      >
+      <label>
+        <input
+          name="pet-first"
+          value="Lola"
+          type="radio"
+          class="input-radio"
+        />Lola</label
+      >
+
+      <label
+        ><input
+          name="pet-first"
+          value="Both"
+          type="radio"
+          class="input-radio"
+          checked
+        />Both! That's why I have 2 hands</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Which pupper is the goodest pupper?</p>
+      <select id="dropdown" name="dropdown-label" class="form-control" required>
+        <option disabled selected value>Choose the goodest pupper</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Lola">Lola</option>
+        <option value="Both">All puppers are the goodest puppers</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+ <div class="form-group">
+      <p>Please enter your choice below if you selected "other"</p>
+      <textarea
+        id="choice"
+        class="input-textarea"
+        name="choice"
+        placeholder="Enter your choice here..."
+      ></textarea>
+  </div>
+    <div class="form-group">
+      <p>What is your favorite feature of doggos?
+      </p>
+      <label
+        ><input
+          name="favorite-feaure"
+          value="Soft fur"
+          type="checkbox"
+          class="input-checkbox"
+        />Thier soft fur</label
+      >
+      <label>
+        <input
+          name="favorite-feaure"
+          value="eyes"
+          type="checkbox"
+          class="input-checkbox"
+        />Puppy dog eyes</label
+      >
+      <label
+        ><input
+          name="favorite-feaure"
+          value="personality"
+          type="checkbox"
+          class="input-checkbox"
+        />Doggo Personalities</label
+      >
+      <label
+        ><input
+          name="favorite-feaure"
+          value="adorableness"
+          type="checkbox"
+          class="input-checkbox"
+        />Overall Adorableness</label
+      >
+      <label
+        ><input
+          name="favorite-feaure"
+          value="paws"
+          type="checkbox"
+          class="input-checkbox"
+        />Their paws</label
+      >
+      <label
+        ><input
+          name="favorite-feaure"
+          value="playfulness"
+          type="checkbox"
+          class="input-checkbox"
+        />Thier playfulness</label
+      >
+      <label
+        ><input
+          name="favorite-feaure"
+          value="everything"
+          type="checkbox"
+          class="input-checkbox"
+        />EVERYTHING!</label
+      >
+      <p>Please enter any additional comments</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comments here..."
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>

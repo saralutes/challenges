@@ -4,7 +4,7 @@
 <head>
 <style>
 main {
-  background-color: lightgrey;
+  background-color: #DCDCDC;
 }
 h1 {
   text-align: center;

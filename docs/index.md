@@ -1,37 +1,160 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/saralutes/challenges/edit/Charlie_Tribute_Challenge/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+<style>
+main {
+  background-color: lightgrey;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-family: Garamond, verdana, sans-serif;
+  padding: 25px 0px;
+  }
+#img-caption {
+  text-align: center;
+  background-color: #dcd0ff;
+  color: black;
+  font-style: italic;
+  font-style: bold;
+  padding: 10px;
+  font-size: 25px;
+}
+#image {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 25px;
+}
+#tribute-info {
+  font-family: Garamond, verdana, sans-serif;
+  padding: 25px;
+  margin: 25px;
+}
+#h2 {
+  display: flex;
+  justify-content: center;
+  font-family: garamond, verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: underline; 
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#box {
+  background-color: #dcd0ff;
+  width: auto;
+  border: solid;
+  
+}
+#question {
+  font-family: garamond, verdana, sans-serif;
+  text-align: center;
+}
+#box-container1 {
+    display: flex;
+    height: auto;
+  flex-direction: row; 
 
-### Markdown
+  }
+  #box-1 {
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    border: solid;
+    
+  }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  #box-2 {
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    border: solid;
+}
+#learnmore {
+  font-style: Garamond, verdana, sans-serif;
+  font-size: 20px;
+   
+}
+#emptybox2 {
+  height: 100px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  #h1 {
+    font-size: 50%;
+    }
+  #img-caption {
+     font-size:25%;
+    }
+  #image {
+    max-width: 75%;
+    max-height: auto;
+  }
+  #box-container {
+    flex-direction: column;
+  }
+  }
 
-```markdown
-Syntax highlighted code block
+</style>
+</head>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saralutes/challenges/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<main id="main">
+  <h1 id="title">Charlie</h1>
+  <figure id="img-div">
+    <img id="image" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.6435-9/169971481_10225391507205680_2202394896811979320_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=730e14&_nc_ohc=a20R8ZyduPsAX8ZpIKd&_nc_ht=scontent-ort2-2.xx&oh=7a986aa4bef7eba9302387c7dcab554b&oe=61CC1BB4" alt="Cute white dog named Charlie standing on a welcome mat">
+    <figcaption id="img-caption">
+      "The very best of bois"
+    </figcaption>
+  </figure>
+  <p1 id="tribute-info">
+Charlie, the goodest of doggos, is a rescued <a
+        id="tribute-link"
+        href=https://www.akc.org/dog-breeds/bichon-frise/
+        target="_blank"
+        >Bichon</a> 
+mix who chose his family on a lovely fall day in September of 2014. He decided to take a nap on the porch of our house and, after taking him to animal control, no previous owners could be found (he may or may not have eaten their faces...). Charlie loves watching every move his humans make - to ensure thier health and happiness - and snuggling on the couch for hours in a soft blanket with his humans. He also enjoys walks outside to pee on ALL the things, chewing on 
+    <a id="treat link" href=https://himalayan.pet/product/himalayan-dog-chew-medium/ target="_blank">Himalyan Dog Chews</a>
+    (who doesn't love smoked cheese?!?!), and dressing up in costumes to recieve many gentle pats on the head.
+  </p1>
+  
+  <div id="box">
+    <div id="question">
+      <h2>
+        What does Charlie enjoy?
+      </h2>
+    </div>
+  </div>
+  
+  <div id="box-container1">
+  <div id="box-1">
+    <h2 id="h2">
+      Likes
+    </h2>
+    <ul>
+      <li>Humans</li>
+      <li>Treats</li>
+      <li>laying on the couch all day with humans</li>
+      <li>Chasing balls but not returning them</li>
+      <li>Dropping dog food crumbs all about the house</li>
+      <li>Peeing on Trees</li>
+      <li>Pooping in crosswalks</li>
+  </div>
+  <div id="box-2">
+     <h2 id="h2">
+      Dislikes
+    </h2>
+    <ul>
+      <li>Lola</li>
+      <li>Eating all his dog food in one sitting</li>
+      <li>Being groomed</li>
+      <li>Other dogs wanting to be his friend - especially LOLA!</li>
+      <li>People walking on his lawn</li>
+      <li>When his human plays the drums</li>
+      <li>Pooping in the grass like a normal dog</li>
+      </div>
+</div>

@@ -1,0 +1,96 @@
+main {
+  background-color: lightgrey;
+}
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-family: Garamond, verdana, sans-serif;
+  padding: 25px 0px;
+  }
+#img-caption {
+  text-align: center;
+  background-color: #dcd0ff;
+  color: black;
+  font-style: italic;
+  font-style: bold;
+  padding: 10px;
+  font-size: 25px;
+}
+#image {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 25px 25px;
+}
+#tribute-info {
+  font-family: Garamond, verdana, sans-serif;
+  padding: 25px;
+  margin: 25px;
+}
+#h2 {
+  display: flex;
+  justify-content: center;
+  font-family: garamond, verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: underline; 
+}
+
+#box {
+  background-color: #dcd0ff;
+  width: auto;
+  border: solid;
+  
+}
+#question {
+  font-family: garamond, verdana, sans-serif;
+  text-align: center;
+}
+#box-container1 {
+    display: flex;
+    height: auto;
+  flex-direction: row; 
+
+  }
+  #box-1 {
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    border: solid;
+    
+  }
+
+  #box-2 {
+    background-color: grey;
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    border: solid;
+}
+#learnmore {
+  font-style: Garamond, verdana, sans-serif;
+  font-size: 20px;
+   
+}
+#emptybox2 {
+  height: 100px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  #h1 {
+    font-size: 50%;
+    }
+  #img-caption {
+     font-size:25%;
+    }
+  #image {
+    max-width: 75%;
+    max-height: auto;
+  }
+  #box-container {
+    flex-direction: column;
+  }
+  }

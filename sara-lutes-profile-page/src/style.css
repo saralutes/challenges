@@ -1,0 +1,241 @@
+html {
+  box-sizing: border-box;
+  font-size: 70%;
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width: 815px) {
+  html {
+    font-size: 58%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 55%;
+  }
+}
+/* Base styles */
+
+body {
+  font-family: garamond, verdana, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: black;
+}
+
+h1, h2 {
+  font-family: garamond, verdana, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.7rem;
+}
+#web_developer {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+/* nav */
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #FF1493;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+.nav-list a:hover {
+  background: #ffcce6;
+}
+/* Welcome section */
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffe6f2;
+}
+
+.welcome-section > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  font-family: garamond, verdana, sans-serif;
+  color: black;
+}
+/* Projects section */
+
+.projects-section {
+  padding: 10rem 2rem;
+  background: #ffcce6;
+}
+
+.projects-section-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid black;
+}
+
+@media only screen and (max-width: 400px) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.project {
+  background: #b30059;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  text-align: center;
+}
+/* Contact section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: #ffb3d9;
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/* Footer */
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #dddddd;
+  border-top: 4px solid black;
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+footer i {
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 400px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
